@@ -1,4 +1,10 @@
-/* The sidebar menu */
+/*1--universal Styles*/
+h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+/*2--Sidebar Menu*/
 .sidebar {
     height: 100%;
     width: 0; 
@@ -40,6 +46,7 @@
 }
   
 .openbtn {
+  position: fixed;
   font-size: 3rem;
   background-color: #D3D3D3;
   color: #000;
@@ -72,4 +79,70 @@
 #menu {
   transition: margin-left .5s; 
   margin-top: 2rem;
+}
+
+/*3--head style*/
+#head {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#head p {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+/*4--Resume Styles*/
+#resume {
+  margin: 0 26rem;
+}
+
+
+#resume div {
+  margin-bottom: 5rem;
+}
+
+#resume h2 {
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+#resume ul {
+  margin-bottom: 3rem;
+  list-style-type: circle;
+}
+
+#resume ul li {
+  font-size: 2.5rem;
+  margin-left: 10rem;
+}
+
+.descriptor {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.descriptor-head {
+  font-size: 2.5rem;
+  margin-left: 10rem;
+}
+
+.sub-head {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin: 1rem 0 1rem 5rem;
+}
+
+.position {
+  font-size: 2rem;
+  font-style: italic;
+  margin-left: 12rem;
+  margin-bottom: .5rem;
+}
+
+.position-descriptor {
+  font-size: 2rem;
+  margin-left: 12rem;
+  margin-bottom: 2rem;
 }
