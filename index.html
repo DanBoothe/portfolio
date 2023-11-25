@@ -11,18 +11,102 @@
 <body>
     <header>
         <nav id="mySidebar" class="sidebar">
+            <img
+                class="profile-img"
+                src="./assets/headShotPlaceHolder-01.svg"
+                alt="Profile of Dan Boothe"
+            />
             <a class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
+
+            <div id="logo-container" class="logo-container">
+                <a href="https://github.com/DanBoothe" target="_blank"><img
+                    class="logo-link"
+                    src="./assets/github-mark.png"
+                    alt="github logo"
+                /></a>
+                <a href="https://github.com/DanBoothe" target="_blank"><img
+                    class="logo-link"
+                    src="./assets/github-mark.png"
+                    alt="github logo"
+                /></a>
+                <a href="https://github.com/DanBoothe" target="_blank"><img
+                    class="logo-link"
+                    src="./assets/github-mark.png"
+                    alt="github logo"
+                /></a>
+            </div>
         </nav>
           
-          <div id="main">
-            <button id="open" class="openbtn" onclick="openNav()">></button>
+          <div id="menu">
+            <button id="open" class="openbtn" onclick="openNav()">&#9776;</button>
           </div>
     </header>
+
     <main>
+        <section id="resume">
+            <div>
+                <h1>Dan Boothe</h1>
+                <p>Software Developer</p>
+                <p><a href="mailto: danboothe9@gmail.com">danboothe92@gmail.com</a> <span>Salt Laky City, UT</span></p>
+            </div>
+    
+            <div>
+                <p>Driven proffessional with proven record of building relationships, managing projects, and coaching individuals
+                    to success. Adaptive leader with the ability to work independently or function highly as a memeber of a team. 
+                    Recognized for being level-headed while utilizing critical thinking and complex problem solving. Skilled at 
+                    orginization and attention to detail. 
+                </p>
+            </div>
+    
+            <div>
+                <h2>Technologies</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Education</h2>
+                <h3>University of Utah <span>2021-2022</span></h3>
+                <p>Coding Bootcamp</p>
+            </div>
+
+            <div>
+                <h2>Experience</h2>
+                <div>
+                    <h3>Digital Room Inc, LLC <span>2021-Present</span></h3>
+                    <p>CS Ops and QC Specialist</p>
+                    <p>Support all coworkers in ensuring a quality experience. Facilitates communication between facilities across the globe
+                        to manage quality, inventory and work load. Implement improvement plans using six sigma techniques to reduce waste and
+                        improve work flow. Handles escaltion resolution working directly with the on site production teams. 
+                    </p>
+                </div>
+                <div>
+                    <h3>Signs.com <span>2019-2021</span></h3>
+                    <p>CS Team Lead</p>
+                    <p>Lead and motivated a team of customer service representatives, providing guidance, coaching, and support to 
+                        ensure a high leel of performance and customer satisfaction. Fostered a positive and collaborative team
+                        culture that encourages open communication, continuous improvement, and a focus of delivering excellent service. 
+                    </p>
+                </div>
+                <div>
+                    <h3>El Matador Restaraunt <span>2009-2019</span></h3>
+                    <p>Manager</p>
+                    <p>Handled all day-to-day operations. Fostered strong relationships with employees and customers. Worked with 
+                        each department to create a focus of teamwork and service. Implemented more efficient policies to expedite 
+                        the flow of business. Created training manual and trained employees in all positions. Learned to work as 
+                        an individual and as a team. Provided support to coworkers in ensuring customer satisfaction.
+                    </p>
+                </div>
+            </div>
+        </section>
 
     </main>
     <script src="./index.js"></script>
